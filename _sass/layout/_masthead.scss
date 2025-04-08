@@ -42,6 +42,18 @@
       text-decoration: none;
     }
   }
+
+  &__theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    cursor: pointer; // add pointer cursor
+    transition: transform 0.3s ease; // smooth transition
+    &:hover {
+      transform: translateY(-50%) scale(1.1); // scale on hover
+    }
+  }
 }
 
 .masthead__menu {

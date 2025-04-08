@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "dark"
 title                    : "Mario Ruoff"
 title_separator          : "-"
 name                     : &name "Mario Ruoff"
@@ -29,7 +29,7 @@ author:
   location         : "Stuttgart, Germany"
   employer         : "University of Stuttgart"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "contact@mario-ruoff.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
