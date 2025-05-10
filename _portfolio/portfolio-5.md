@@ -1,0 +1,18 @@
+---
+title: "Uni Stuttgart Login Redirect"
+excerpt: "<img src='/images/login-redirect-icon.png' width=200><br/>A browser extension to automatically redirect to the University of Stuttgart login page."
+collection: portfolio
+---
+
+<img src='/images/login-redirect-icon.png' width=200>
+
+## Description
+This browser extension will automatically redirect you to the login page of Ilias and Campus of the University of Stuttgart. With autofill activated in your browser, you can login now with one click.
+
+## Extension
+<a href='https://chromewebstore.google.com/detail/uni-stuttgart-login-redir/ipolaogelndncfbgmmecihfefndacgdm'><img width="30%" src='/images/login-redirect-chrome-banner.png'/></a>
+
+<a href='https://microsoftedge.microsoft.com/addons/detail/dedloiihjiohpgmoppglhiddncildmjp'><img width="30%" src='/images/login-redirect-edge-banner.png'/></a>
+
+## Repository
+[mario-ruoff/uni-stuttgart-login-redirect](https://github.com/mario-ruoff/uni-stuttgart-login-redirect){: .btn .btn--inverse}
