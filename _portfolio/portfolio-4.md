@@ -1,7 +1,12 @@
 ---
-title: "WhatsApp Chat Analyzer (deprecated)"
-excerpt: "<img src='/images/chat-analyzer-icon.png' width=200><br/>A tool to analyze word frequencies in WhatsApp chats."
 collection: portfolio
+title: "WhatsApp Chat Analyzer (deprecated)"
+excerpt: "A tool to analyze word frequencies in WhatsApp chats."
+stack:
+    - React
+    - Firebase
+header:
+    teaser: chat-analyzer-icon.png
 ---
 
 <img src='/images/chat-analyzer-icon.png' width=200>
@@ -13,7 +18,7 @@ A React App to analyze the frequencies of given words in selected WhatsApp chats
 [mario-ruoff/whatsapp-chat-analyzer](https://github.com/mario-ruoff/whatsapp-chat-analyzer){: .btn .btn--inverse}
 
 ## Web App
-[WhatsApp Chat Analyzer](https://chat-analyzer.mario-ruoff.com){: .btn .btn--inverse}
+[WhatsApp Chat Analyzer](https://chat-analyzer.mario-ruoff.com){: .btn .btn--info .btn--large}
 
 ## Available Scripts
 

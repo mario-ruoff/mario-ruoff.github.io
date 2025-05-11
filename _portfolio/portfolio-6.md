@@ -1,7 +1,13 @@
 ---
-title: "Telegram Message Filter"
-excerpt: "<img src='/images/telegram-icon.png' width=200><br/>A Python Flask web app to filter fetched telegram messages."
 collection: portfolio
+title: "Telegram Message Filter"
+excerpt: "A Python Flask web app to filter fetched telegram messages."
+stack:
+    - Python
+    - Flask
+    - Google Cloud
+header:
+    teaser: telegram-icon.png
 ---
 
 <img src='/images/telegram-icon.png' width=200>
@@ -10,7 +16,7 @@ collection: portfolio
 This project is a Python Flask web application designed to fetch and filter messages from Telegram channels or groups, providing a streamlined way to manage and analyze message data.
 
 ## Web App
-[Telegram Message Reader](https://telegram-reader.mario-ruoff.com){: .btn .btn--inverse}
+[Telegram Message Reader](https://telegram-reader.mario-ruoff.com){: .btn .btn--info .btn--large}
 
 ## Repository
 [mario-ruoff/telegram-message-reader](https://github.com/mario-ruoff/telegram-message-reader){: .btn .btn--inverse}

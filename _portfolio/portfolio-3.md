@@ -1,7 +1,11 @@
 ---
-title: "Minimal Launcher"
-excerpt: "<img src='/images/minimal-launcher-icon.png' width=200><br/>A android launcher without ads, in-app purchases or premium versions."
 collection: portfolio
+title: "Minimal Launcher"
+excerpt: "A minimalistic android launcher without in-app purchases or premium versions."
+stack:
+    - Kotlin
+header:
+    teaser: minimal-launcher-icon.png
 ---
 
 <img src='/images/minimal-launcher-icon.png' width=200>

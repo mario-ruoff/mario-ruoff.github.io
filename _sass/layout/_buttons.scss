@@ -16,7 +16,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: var(--global-base-color);
   border: 0 !important;
   border-radius: $border-radius;
@@ -69,6 +69,7 @@
 
   &--info {
     background-color: $info-color;
+    text-decoration: none;
 
     &:hover {
       background-color: mix(#000, $info-color, 20%);

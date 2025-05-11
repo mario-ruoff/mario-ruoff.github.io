@@ -1,7 +1,13 @@
 ---
-title: "Minimal Piano"
-excerpt: "<img src='/images/minimal-piano-icon.png' width=200><br/>A free, open-source piano app without any ads or in-app purchases"
 collection: portfolio
+title: "Minimal Piano"
+excerpt: "A free, open-source piano app without any ads or in-app purchases"
+stack:
+    - Kotlin
+    - React Native
+    - React
+header: 
+    teaser: minimal-piano-icon.png
 ---
 
 <img src='/images/minimal-piano-icon.png' width=200>
@@ -22,7 +28,7 @@ There are two version of the app:
 ## Install
 <a href='https://play.google.com/store/apps/details?id=com.escape99.minimalpiano&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="30%" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
-<a href="https://piano.mario-ruoff.com" class="btn btn--inverse" style="margin-left: 1.2em">Minimal Piano Web App</a>
+<a href="https://piano.mario-ruoff.com" class="btn btn--info btn--large" style="margin-left: 12pt">Minimal Piano Web App</a>
 
 ## Features
 - 🎉 Ad-free

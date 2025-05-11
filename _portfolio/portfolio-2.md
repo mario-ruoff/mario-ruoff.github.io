@@ -1,7 +1,12 @@
 ---
-title: "Minimal Progress Tracker"
-excerpt: "<img src='/images/minimal-progress-tracker-icon.png' width=200><br/>A simple workout tracker without ads, in-app purchases or premium versions."
 collection: portfolio
+title: "Minimal Progress Tracker"
+excerpt: "A simple workout tracker without ads, in-app purchases or premium versions."
+stack:
+    - Flutter
+    - Firebase
+header:
+    teaser: minimal-progress-tracker-icon.png
 ---
 
 <img src='/images/minimal-progress-tracker-icon.png' width=200>
@@ -20,7 +25,7 @@ Minimal Progress Tracker is a simple workout tracker without ads, in-app purchas
 ## Install
 <a href='https://play.google.com/store/apps/details?id=com.escape99.minimalprogresstracker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width="30%" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
-<a href="https://progress-tracker.mario-ruoff.com" class="btn btn--inverse" style="margin-left: 1.2em">Minimal Progress Tracker Web App</a>
+<a href="https://progress-tracker.mario-ruoff.com" class="btn btn--info btn--large" style="margin-left: 12pt">Minimal Progress Tracker Web App</a>
 
 ## Features
 - 🎉 Ad-free

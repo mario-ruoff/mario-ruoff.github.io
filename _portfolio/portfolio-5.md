@@ -1,7 +1,11 @@
 ---
-title: "Uni Stuttgart Login Redirect"
-excerpt: "<img src='/images/login-redirect-icon.png' width=200><br/>A browser extension to automatically redirect to the University of Stuttgart login page."
 collection: portfolio
+title: "Uni Stuttgart Login Redirect"
+excerpt: "A browser extension to automatically redirect to the University of Stuttgart login page."
+stack:
+    - JavaScript
+header:
+    teaser: login-redirect-icon.png
 ---
 
 <img src='/images/login-redirect-icon.png' width=200>
