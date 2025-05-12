@@ -13,7 +13,7 @@ title                    : "Mario Ruoff"
 title_separator          : "-"
 name                     : &name "Mario Ruoff"
 description              : &description "personal description"
-url                      : https://mario-ruoff.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://mario-ruoff.com/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mario-ruoff/mario-ruoff.github.io"
 
