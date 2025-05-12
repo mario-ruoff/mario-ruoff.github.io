@@ -1,7 +1,7 @@
 ---
 collection: portfolio
 title: "Minimal Progress Tracker"
-excerpt: "A simple workout tracker without ads, in-app purchases or premium versions."
+excerpt: "A simple workout tracker without ads, in-app purchases or premium versions"
 stack:
     - Flutter
     - Firebase

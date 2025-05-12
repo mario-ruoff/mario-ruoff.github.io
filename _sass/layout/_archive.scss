@@ -39,22 +39,6 @@
   }
 }
 
-.stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem; /* Adjust spacing between items */
-}
-
-.stack__item {
-  display: inline-block;
-  padding: 0.25rem 0.5rem; /* Smaller padding for smaller text */
-  background-color: var(--global-border-color); /* Use a CSS variable with a fallback */
-  color: var(--global-text-color);
-  border-radius: 0.25rem; /* Rounded corners */
-  font-size: $type-size-6; /* Smaller font size */
-  cursor: default; /* Prevent pointer cursor */
-}
-
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;

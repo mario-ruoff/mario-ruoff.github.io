@@ -1,7 +1,7 @@
 ---
 collection: portfolio
 title: "Telegram Message Filter"
-excerpt: "A Python Flask web app to filter fetched telegram messages."
+excerpt: "A Python Flask web app to filter fetched telegram messages"
 stack:
     - Python
     - Flask

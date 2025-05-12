@@ -1,7 +1,7 @@
 ---
 collection: portfolio
 title: "Uni Stuttgart Login Redirect"
-excerpt: "A browser extension to automatically redirect to the University of Stuttgart login page."
+excerpt: "A browser extension to automatically redirect to the University of Stuttgart login page"
 stack:
     - JavaScript
 header:

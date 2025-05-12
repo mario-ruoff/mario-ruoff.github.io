@@ -51,11 +51,9 @@
     {% endif %}
 
     {% if post.stack %}
-      <p class="stack">
-        {% for item in post.stack %}
-          <span class="stack__item">{{ item }}</span>
-        {% endfor %}
-      </p>
+      {% for item in post.stack %}
+        <span class="page__taxonomy-item text__small">{{ item }}</span>
+      {% endfor %}
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}

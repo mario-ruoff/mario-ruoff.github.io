@@ -1,7 +1,7 @@
 ---
 collection: portfolio
 title: "WhatsApp Chat Analyzer (deprecated)"
-excerpt: "A tool to analyze word frequencies in WhatsApp chats."
+excerpt: "A tool to analyze word frequencies in WhatsApp chats"
 stack:
     - React
     - Firebase
