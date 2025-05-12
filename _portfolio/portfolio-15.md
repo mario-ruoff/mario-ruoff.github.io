@@ -1,7 +1,7 @@
 ---
 collection: portfolio
 title: "Minimal Launcher"
-excerpt: "A minimalistic android launcher without in-app purchases or premium versions"
+excerpt: "A minimalistic android launcher without in-app purchases"
 stack:
     - Kotlin
 header:
