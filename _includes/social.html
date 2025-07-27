@@ -10,5 +10,6 @@
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-icons.svg#mastodon' | relative_url }}"></use></svg> </a></li>{%- endif -%}{%- endfor -%}
   {%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-icons.svg#youtube' | relative_url }}"></use></svg> </a></li>{%- endif -%}
   {%- if site.googleplus_username -%}<li><a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-icons.svg#googleplus' | relative_url }}"></use></svg> </a></li>{%- endif -%}
+  {%- if site.email_address -%}<li><a href="mailto:{{ site.email_address | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-icons.svg#email' | relative_url }}"></use></svg> </a></li>{%- endif -%}
   {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-icons.svg#rss' | relative_url }}"></use></svg> </a></li>{%- endif -%}
 </ul>
