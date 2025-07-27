@@ -29,6 +29,10 @@ github_username:  mario-ruoff
 linkedin_username: mario-ruoff
 email_address: contact@mario-ruoff.com
 
+project_colors:
+  saturation: 70%
+  lightness: 80%
+
 header_pages:
   - index.md
   - projects.md

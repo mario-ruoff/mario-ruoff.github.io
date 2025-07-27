@@ -6,7 +6,7 @@
   <body>
 
     {%- include header.html -%}
-    {% assign gridColor = "hsl(" | append: page.pagecolorhue | default: 0 | append: ", 70%, 70%)" %}
+    {% assign projectColor = "hsl(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ")" %}
 
     <main class="page-content project-header" aria-label="Content">
       <div class="wrapper">
@@ -29,7 +29,7 @@
 
         <style>
           .site-header, .project-header {
-            background-color: {{ gridColor }};
+            background-color: {{ projectColor }};
           }
         </style>
 

@@ -1,6 +1,5 @@
-{% assign gridColor = "hsl(" | append: project.pagecolorhue | default: 0 | append: ", 70%, 90%)" %}
-{% assign gridColorBg = "hsla(" | append: project.pagecolorhue | default: 0 | append: ", 70%, 90%, 0.5)" %}
-
+{% assign gridColor = "hsl(" | append: project.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ")" %}
+{% assign gridColorBg = "hsla(" | append: project.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ", 50%)" %}
 <div class="grid-item" style="--grid-color: {{ gridColorBg }}">
   <a href="{{ project.url | relative_url }}">
     <img src="{{ '/assets/images/' | append: project.imageurl | relative_url }}" style="background-color: {{ gridColor }};">
