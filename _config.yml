@@ -47,9 +47,6 @@ collections:
 # Build settings
 theme: minima
 plugins:
-  
-include:
-  - .well-known
 
 # Exclude from processing.
 # The following items will not be processed, by default.
