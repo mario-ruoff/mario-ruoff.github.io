@@ -1,0 +1,37 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    
+    {%- if page_paths -%}
+      <nav class="site-nav">
+
+        <div class="nav-container slide-in first" id="slider">
+          <div class="page-links">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+                <a class="page-link{% if my_page.url == page.url %} active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          {%- include social.html -%}
+        </div>
+        
+        <div class="nav-container-small">
+          <div class="menu-bar">
+            <button class="menu-default" onclick="toggle(this)">
+              <svg viewBox="0 0 64 48">
+                  <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                  <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                  <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </nav>
+    {%- endif -%}
+  </div>
+</header>
