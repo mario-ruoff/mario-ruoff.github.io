@@ -4,7 +4,11 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1>{{ page.title | escape }}</h1>
+    {% if page.longtitle %}
+      <h1>{{ page.longtitle | escape }}</h1>
+    {% else %}
+      <h1>{{ page.title | escape }}</h1>
+    {% endif %}
   </header>
 
   <div class="post-content">

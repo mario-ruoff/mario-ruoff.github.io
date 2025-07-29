@@ -37,7 +37,7 @@ header_pages:
   - index.md
   - projects.md
   - resume.md
-  - about.md
+  - contact.md
 
 collections:
   projects:

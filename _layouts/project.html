@@ -7,6 +7,7 @@
 
     {%- include header.html -%}
     {% assign projectColor = "hsl(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ")" %}
+    {% assign projectColorLight = "hsla(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ", 0.5)" %}
 
     <main class="page-content project-header" aria-label="Content">
       <div class="wrapper">
@@ -16,7 +17,7 @@
             <h1>{{ page.title }}</h1>
             <p class="short-description">{{ page.description }}</p>
             {% for link in page.links %}
-              <a href="{{ link.url }}" class="button">{{ link.text }}</a>
+              {% include icon_button.html text=link.text icon=link.icon url=link.url %}
             {% endfor %}
           </div>
 
@@ -27,24 +28,29 @@
 
         </div>
 
-        <style>
-          .site-header, .project-header {
-            background-color: {{ projectColor }};
-          }
-        </style>
-
       </div>
     </main>
 
+    {% if page.content and page.content.size > 1 %}
     <main class="page-content">
       <div class="project-content">
         <div class="wrapper">
-          {{ content }}
+          {{ content.size }}
         </div>
       </div>
     </main>
+    {% endif %}
 
     {%- include footer.html -%}
+
+    <style>
+      .site-header, .project-header {
+        background-color: {{ projectColor }};
+      }
+      .site-footer {
+        background-color: {{ projectColorLight }};
+      }
+    </style>
 
   </body>
 

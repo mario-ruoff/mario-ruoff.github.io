@@ -502,6 +502,7 @@ button, .button {
   margin-right: $spacing-unit / 2;
   margin-bottom: $spacing-unit / 2;
   border-radius: 10px;
+  border: none;
   padding: 0.75em 1em;
   cursor: pointer;
   display: inline-flex;
@@ -527,5 +528,40 @@ button:hover, .button:hover {
 }
 
 .home .button {
+  background-color: rgba(180, 180, 200, 0.2);
+}
+
+/**
+ * Forms
+ */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75em 1em;
+  margin-bottom: $spacing-unit / 2;
+  box-sizing: border-box;
+  border: 1px solid $grey-color-light;
+  border-radius: $spacing-unit / 4;
+  color: $text-color;
+  font-size: 1em;
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  &:focus {
+    border-color: $brand-color;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba($brand-color, 0.15);
+    background-color: rgba(255,255,255,0.4);
+  }
+}
+
+textarea {
+  min-height: $spacing-unit * 6;
+  resize: vertical;
+}
+
+form button {
+  font-family: inherit;
+  padding: 1em 2em;
   background-color: rgba(180, 180, 200, 0.2);
 }

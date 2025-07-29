@@ -1,0 +1,11 @@
+<a href="{{ include.url }}" class="button">{{ include.text }}<svg class="svg-icon svg-icon-small"><use xlink:href="{{ '/assets/minima-icons.svg#' | append: include.icon | relative_url }}"></use></svg></a>
+
+<style>
+  .svg-icon-small {
+    transform: scale(1);
+    margin-left: 6px;
+  }
+  .svg-icon:hover {
+    opacity: 1;
+  }
+</style>

@@ -10,4 +10,5 @@ I'm a software engineer passionate about autonomous driving and deep learning. I
 
 I reveived my master's degree in Autonomous Systems from the University of Stuttgart and a bachelor's in Computer Science from DHBW Stuttgart. In my free time, I enjoy building ad-free, open source apps that simplify everyday life.
 
-[View My Projects](./projects){: .button }
+{% include icon_button.html text="View my projects" icon="arrow_right" url="/projects" %}
+

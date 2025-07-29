@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Résumé
+longtitle: "Résumé / CV"
 permalink: /resume/
 ---
 
