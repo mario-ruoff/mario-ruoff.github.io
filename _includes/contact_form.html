@@ -10,5 +10,15 @@
     <textarea name="message"></textarea>
   </label>
 
-  <button type="submit">Send</button>
+  <button type="submit">Send<svg class="svg-icon svg-icon-small"><use xlink:href="{{ '/assets/minima-icons.svg#send' | relative_url }}"></use></svg></button>
 </form>
+
+<style>
+  .svg-icon-small {
+    transform: rotate(45deg) scale(1);
+    margin-left: 10px;
+  }
+  .svg-icon:hover {
+    opacity: 1;
+  }
+</style>
