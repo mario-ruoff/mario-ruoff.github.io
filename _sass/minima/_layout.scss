@@ -245,6 +245,17 @@
   align-items: center;
 }
 
+.footer-col a {
+  color: $grey-color;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $grey-color;
+    text-decoration: underline;
+  }
+}
+
 .footer-col-right {
   text-align: right;
   font-size: $small-font-size;

@@ -27,7 +27,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mario-ruoff
 linkedin_username: mario-ruoff
-email_address: contact@mario-ruoff.com
+googleplay_id: "9186248070330348041"
 
 project_colors:
   saturation: 70%
