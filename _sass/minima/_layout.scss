@@ -342,6 +342,49 @@
 .post-header {
   margin-bottom: $spacing-unit;
 }
+.resume-header {
+  margin-bottom: 0;
+}
+.resume-content {
+  table {
+    border: none;
+    
+    td {
+      border: none;
+      padding-left: 0;
+      background-color: $background-color;
+      vertical-align: top;
+      line-height: 1.4;
+
+      br {
+        margin-bottom: 0.4em;
+      }
+      strong + br {
+        margin-bottom: 0;
+      }
+      em {
+        font-style: normal;
+        font-size: $small-font-size;
+      }
+      b, strong {
+        font-weight: 500;
+      }
+      &:first-child {
+        white-space: nowrap;
+      }
+    }
+
+    @include media-query($on-palm) {
+      tr {
+        display: block;
+        margin-bottom: $spacing-unit;
+      }
+      td {
+        display: block;
+      }
+    }
+  }
+}
 
 .post-title {
   @include relative-font-size(2.625);
@@ -357,15 +400,15 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    @include relative-font-size(2);
+    @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
+      @include relative-font-size(1.5);
     }
   }
 
   h3 {
-    @include relative-font-size(1.625);
+    @include relative-font-size(1.375);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
