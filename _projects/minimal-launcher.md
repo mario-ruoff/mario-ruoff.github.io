@@ -1,20 +1,25 @@
 ---
-collection: portfolio
+layout: project
 title: "Minimal Launcher"
-excerpt: "A minimalistic android launcher without in-app purchases"
+date: 2025-05-10
+imageurl: minimal-launcher-icon.png
+pagecolorhue: 230
+
 stack:
     - Kotlin
-header:
-    teaser: minimal-launcher-icon.png
+
+links:
+  - text: "Android App"
+    icon: "app"
+    url: "https://github.com/mario-ruoff/minimal-launcher/releases/tag/Latest"
+  - text: "Repository"
+    icon: "code"
+    url: "https://github.com/mario-ruoff/minimal-launcher"
+    
+excerpt: "A minimalistic android launcher without in-app purchases"
+
+description: "Minimal Launcher is a free, open-source launcher app without any ads or in-app purchases. It is a fork of the original app Olauncher by tanujnotes: [Olauncher | Minimal AF Launcher](https://github.com/tanujnotes/Olauncher)"
 ---
-
-<!-- <img src='/images/minimal-launcher-icon.png' width=200> -->
-
-## Description
-Minimal Launcher is a free, open-source launcher app without any ads or in-app purchases. It is a fork of the original app Olauncher by tanujnotes: [Olauncher | Minimal AF Launcher](https://github.com/tanujnotes/Olauncher)
-
-## Repository
-[mario-ruoff/minimal-launcher](https://github.com/mario-ruoff/minimal-launcher){: .btn .btn--inverse}
 
 ## Install
 Download the APK from the [latest release](https://github.com/mario-ruoff/minimal-launcher/releases/).

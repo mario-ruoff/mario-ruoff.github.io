@@ -1,16 +1,29 @@
 ---
-collection: portfolio
+layout: project
 title: "Minimal Progress Tracker"
-excerpt: "A simple workout tracker without ads, in-app purchases or premium versions"
+date: 2025-04-08
+imageurl: minimal-progress-tracker-icon.png
+pagecolorhue: 50
+
 stack:
     - Flutter
     - Firebase
-header:
-    teaser: minimal-progress-tracker-icon.png
----
 
-## Description
-Minimal Progress Tracker is a simple workout tracker without ads, in-app purchases or premium versions, written in Flutter. Focus entirely on tracking your workout and see your training progress transparently.
+links:
+  - text: "Android App"
+    icon: "app"
+    url: "https://play.google.com/store/apps/details?id=com.escape99.minimalprogresstracker"
+  - text: "Web App"
+    icon: "globe"
+    url: "https://progress-tracker.mario-ruoff.com"
+  - text: "Repository"
+    icon: "code"
+    url: "https://github.com/mario-ruoff/whatsapp-chat-analyzer"
+
+excerpt: "A simple workout tracker without ads, in-app purchases or premium versions"
+
+description: "Minimal Progress Tracker is a simple workout tracker without ads, in-app purchases or premium versions, written in Flutter. Focus entirely on tracking your workout and see your training progress transparently."
+---
 
 ## Repository
 [mario-ruoff/minimal-progress-tracker](https://github.com/mario-ruoff/minimal-progress-tracker){: .btn .btn--inverse}

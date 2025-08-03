@@ -7,7 +7,7 @@
 
     {%- include header.html -%}
     {% assign projectColor = "hsl(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ")" %}
-    {% assign projectColorLight = "hsla(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ", 0.5)" %}
+    {% assign projectColorLight = "hsla(" | append: page.pagecolorhue | append: ", " | append: site.project_colors.saturation | append: ", " | append: site.project_colors.lightness | append: ", 0.25)" %}
 
     <main class="page-content project-header" aria-label="Content">
       <div class="wrapper">
@@ -35,7 +35,7 @@
     <main class="page-content">
       <div class="project-content">
         <div class="wrapper">
-          {{ content.size }}
+          {{ content }}
         </div>
       </div>
     </main>

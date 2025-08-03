@@ -1,18 +1,29 @@
 ---
-collection: portfolio
+layout: project
 title: "Minimal Piano"
-excerpt: "A free, open-source piano app without any ads or in-app purchases"
+date: 2025-04-22
+imageurl: minimal-piano-icon.png
+pagecolorhue: 190
+
 stack:
     - Kotlin
     - React Native
     - React
-header: 
-    teaser: minimal-piano-icon.png
-featured: true
----
+    
+links:
+  - text: "Android App"
+    icon: "app"
+    url: "https://play.google.com/store/apps/details?id=com.escape99.minimalpiano"
+  - text: "Web App"
+    icon: "globe"
+    url: "https://piano.mario-ruoff.com"
+  - text: "Repository"
+    icon: "code"
+    url: "https://github.com/mario-ruoff/minimal-piano-native"
 
-## Description
-Minimal Piano is a free, open-source piano app without any ads or in-app purchases. Nothing more, nothing less, it just does its job. It is available as a React Web App and an Android app with over 50.000 downloads on the Google Play Store.
+excerpt: "A free, open-source piano app without any ads or in-app purchases"
+description: "Minimal Piano is a free, open-source piano app without any ads or in-app purchases. Nothing more, nothing less, it just does its job. It is available as a React Web App and an Android app with over 50.000 downloads on the Google Play Store."
+---
 
 ## Repository
 There are two version of the app:

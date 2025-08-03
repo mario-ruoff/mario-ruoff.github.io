@@ -1,22 +1,27 @@
 ---
-collection: portfolio
+layout: project
 title: "J.A.R.V.I.L."
-excerpt: "Just A Rather Very Intelligent Library - An IoT library room booking service"
+date: 2021-07-18
+imageurl: calendar-icon.png
+pagecolorhue: 0
+
 stack:
     - Python
     - MQTT
     - Redis
     - InfluxDB
     - Docker
-header:
-    teaser: calendar-icon.png
+
+links:
+  - text: "Repository"
+    icon: "code"
+    url: "https://github.com/mario-ruoff/jarvil"
+
+excerpt: "Just A Rather Very Intelligent Library - An IoT library room booking service"
+
+description: "J.A.R.V.I.L. is a project of the 'Smart Cities & IoT' course at the University of Stuttgart. It's main goal is to simplify and automate various tasks in a modern library to make daily work easier for students."
 ---
 
-## Description
-J.A.R.V.I.L. is a project of the "Smart Cities & IoT" course at the University of Stuttgart. It's main goal is to simplify and automate various tasks in a modern library to make daily work easier for students.
-
-## Repository
-[mario-ruoff/jarvil](https://github.com/mario-ruoff/jarvil){: .btn .btn--inverse}
 
 ## Services Configuration & Run
 

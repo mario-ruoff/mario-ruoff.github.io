@@ -1,0 +1,22 @@
+---
+layout: project
+title: "Blockchain Check-in App"
+date: 2022-07-08
+imageurl: blockchain-contract-icon.png
+pagecolorhue: 200
+
+stack:
+    - Ethereum
+    - Python
+    - Kotlin
+    - InfluxDB
+
+links:
+  - text: "Repository"
+    icon: "code"
+    url: "https://github.com/mario-ruoff/hackathon-2022"
+    
+excerpt: "An blockchain-based inspection process platform using Ethereum"
+
+description: "This repository is a result of the [ARENA 2036](https://arena2036.de/en) Hackathon in 2022. It aims to create a blockchain-based platform to enable proof of presence for inspection processes. Completed inspections are signed and signed via smart contracts."
+---
