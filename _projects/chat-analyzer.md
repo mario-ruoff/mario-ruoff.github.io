@@ -2,7 +2,7 @@
 layout: project
 title: "WhatsApp Chat Analyzer"
 date: 2021-03-31
-imageurl: chat-analyzer-icon.png
+imageurl: pexels-anniroenkae-4175070.jpg
 pagecolorhue: 120
 
 stack:
