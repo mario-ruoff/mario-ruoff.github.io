@@ -2,8 +2,8 @@
 layout: project
 title: "Minimal Piano"
 date: 2025-04-22
-imageurl: minimal-piano-icon.png
-pagecolorhue: 190
+imageurl: pexels-anniroenkae-2382738.jpg
+pagecolorhue: 250
 
 stack:
     - Kotlin
@@ -26,7 +26,7 @@ description: "Minimal Piano is a free, open-source piano app without any ads or 
 ---
 
 ## Repository
-There are two version of the app:
+There are two versions of the app:
 - [mario-ruoff/minimal-piano-react](https://github.com/mario-ruoff/minimal-piano-react){: .btn .btn--inverse} - React Build
 - [mario-ruoff/minimal-piano-native](https://github.com/mario-ruoff/minimal-piano-native){: .btn .btn--inverse} - Kotlin Native Build
 

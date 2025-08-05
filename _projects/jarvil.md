@@ -2,7 +2,7 @@
 layout: project
 title: "J.A.R.V.I.L."
 date: 2021-07-18
-imageurl: calendar-icon.png
+imageurl: pexels-eberhardgross-2088205.jpg
 pagecolorhue: 0
 
 stack:

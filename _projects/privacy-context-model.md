@@ -2,8 +2,8 @@
 layout: project
 title: "Privacy Context Model"
 date: 2023-04-18
-imageurl: privacy-car-icon.png
-pagecolorhue: 10
+imageurl: pexels-babybluecat-6843588.jpg
+pagecolorhue: 160
 
 stack:
     - Python

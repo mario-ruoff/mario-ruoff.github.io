@@ -2,8 +2,8 @@
 layout: project
 title: "Uni Stuttgart Login Redirect"
 date: 2022-10-22
-imageurl: login-redirect-icon.png
-pagecolorhue: 250
+imageurl: pexels-didsss-2911521.jpg
+pagecolorhue: 230
     
 stack:
     - JavaScript

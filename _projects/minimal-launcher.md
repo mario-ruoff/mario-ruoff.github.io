@@ -2,8 +2,8 @@
 layout: project
 title: "Minimal Launcher"
 date: 2025-05-10
-imageurl: minimal-launcher-icon.png
-pagecolorhue: 230
+imageurl: pexels-jplenio-1103970.jpg
+pagecolorhue: 220
 
 stack:
     - Kotlin

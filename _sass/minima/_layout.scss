@@ -498,11 +498,6 @@
 
 .project-content {
   padding: $spacing-unit 0;
-
-  .wrapper {
-    max-width: -webkit-calc(#{$content-width * 0.75} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width * 0.75} - (#{$spacing-unit} * 2));
-  }
 }
 
 

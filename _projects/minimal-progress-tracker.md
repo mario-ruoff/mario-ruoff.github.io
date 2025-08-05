@@ -2,8 +2,8 @@
 layout: project
 title: "Minimal Progress Tracker"
 date: 2025-04-08
-imageurl: minimal-progress-tracker-icon.png
-pagecolorhue: 50
+imageurl: pexels-neosiam-4498792.jpg
+pagecolorhue: 30
 
 stack:
     - Flutter

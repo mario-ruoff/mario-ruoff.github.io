@@ -2,8 +2,8 @@
 layout: project
 title: "Telegram Message Filter"
 date: 2025-04-18
-imageurl: telegram-icon.png
-pagecolorhue: 220
+imageurl: pexels-zaksheuskaya-709412-1561020.jpg
+pagecolorhue: 200
 
 stack:
     - Python

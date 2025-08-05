@@ -1,9 +1,9 @@
 ---
 layout: project
 title: "Machine Learning Collection"
-date: 2025-03-04
-imageurl: machine-learning-icon.png
-pagecolorhue: 50
+date: 2025-06-04
+imageurl: pexels-eva-bronzini-7630061.jpg
+pagecolorhue: 10
 
 stack:
     - Python

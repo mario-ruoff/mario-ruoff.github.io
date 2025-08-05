@@ -2,8 +2,8 @@
 layout: project
 title: "Data Mining Crime Patterns"
 date: 2023-12-05
-imageurl: data-mining-icon.png
-pagecolorhue: 160
+imageurl: pexels-merlin-11280357.jpg
+pagecolorhue: 340
 
 stack:
     - Python

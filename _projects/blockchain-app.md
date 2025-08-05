@@ -2,7 +2,7 @@
 layout: project
 title: "Blockchain Check-in App"
 date: 2022-07-08
-imageurl: blockchain-contract-icon.png
+imageurl: pexels-daniela-elena-tentis-118658-370799.jpg
 pagecolorhue: 200
 
 stack:
