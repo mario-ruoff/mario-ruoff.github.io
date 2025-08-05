@@ -7,6 +7,13 @@
         <img src="{{ '/assets/images/' | append: project.imageurl | relative_url }}" style="background-color: {{ gridColor }};">
       </a>
       <h2>{{ project.title }}</h2>
+      {% if project.stack %}
+        <p class="project-stack">
+        {% for item in project.stack %}
+          <span class="stack-item">{{ item }}</span>
+        {% endfor %}
+        </p>
+      {% endif %}
       <p>{{ project.excerpt }}</p>
     </div>
   {% endfor %}

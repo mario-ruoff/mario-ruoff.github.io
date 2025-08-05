@@ -16,5 +16,5 @@ links:
 
 excerpt: "A collection of various Machine Learning projects"
 
-description: "This project contains various scripts for small machine learning test projects. It includes an implementation of an MLP written from scratch. Other than that, PyTorch is used as machine learning framework."
+description: "This project contains various scripts for small machine learning test projects. It includes an implementation of an MLP written from scratch. PyTorch is used as machine learning framework."
 ---

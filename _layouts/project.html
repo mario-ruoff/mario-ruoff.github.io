@@ -14,7 +14,15 @@
         <div class="project">
           
           <div class="project-wrapper">
+            <p class="project-date">{{ page.date | date: "%B %Y" }}</p>
             <h1>{{ page.title }}</h1>
+            {% if page.stack %}
+              <p class="project-stack">
+              {% for item in page.stack %}
+                <span class="stack-item">{{ item }}</span>
+              {% endfor %}
+              </p>
+            {% endif %}
             <p class="short-description">{{ page.description }}</p>
             {% for link in page.links %}
               {% include icon_button.html text=link.text icon=link.icon url=link.url %}

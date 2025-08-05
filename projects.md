@@ -5,6 +5,6 @@ longtitle: "My Projects"
 permalink: /projects/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in turpis tincidunt, condimentum felis ac, tincidunt mauris. Cras id eros sit amet sem porttitor gravida. Nunc sed mattis augue, sed lobortis tellus.
+Here is a curated list of projects I mostly work on aside from work and studying. An overview of all my projects can be found on my [GitHub Page](https://github.com/mario-ruoff).
 
 {% include project_grid.html %}
