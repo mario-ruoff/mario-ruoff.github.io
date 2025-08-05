@@ -8,8 +8,8 @@ permalink: /resume/
 ## Work Experience
 ------------------
 
-| 07/2024 - 01/2025 | **Master’s Thesis, Mercedes-Benz AG**<br>*Research & Development Autonomous Driving* | Title: "Latent Context Maps for Deep Learning-Based Motion Prediction"<br>Trajectory prediction using PyTorch |
-| 02/2023 - 08/2023 | **Software Developer, GreenTeam Uni Stuttgart**<br>*Formula Student, Telemetry/System Electronics* | Development of a GPS-based telemetry tracking dashboard<br>Competition at Red Bull Ring in Spielberg, Austria |
+| 07/2024 - 01/2025 | **Master’s Thesis, Mercedes-Benz AG**<br>*Research & Development Autonomous Driving* | Title: "Latent Context Maps for Deep Learning-Based Motion Prediction"<br>Improving vehicle occupancy prediction using PyTorch |
+| 02/2023 - 08/2023 | **Software Developer, GreenTeam Uni Stuttgart**<br>*Formula Student, Telemetry/System Electronics* | Development of a GPS-based telemetry tracking dashboard<br>Software development support in Driverless Cup<br>Competition at Red Bull Ring in Spielberg, Austria |
 | 12/2021 - 06/2023 | **Working Student, Mercedes-Benz AG**<br>*Research & Development Autonomous Driving* | Support in trajectory prediction<br>Smoke testing taskforce on ECUs |
 | 07/2019 - 08/2019 | **Foreign Assignment, Italy**<br>*fischer Italia S.r.l., Padua* | IT department support on site<br>Development of an Active Directory web application |
 | 10/2017 - 09/2020 | **Dual Study Program in Computer Science**<br>*fischerwerke GmbH & Co. KG* | Assignments in various IT departments<br>Use-case analysis of blockchain technology<br>Development of a digital attendance system |
@@ -26,7 +26,7 @@ permalink: /resume/
 ----------
 
 | 07/2023 | PROMOS Scholarship of the DAAD (German Academic Exchange Service) |
-| 06/2023 | Scholarship from the German American Women's Club |
+| 06/2023 | Scholarship from the GAWC Stuttgart |
 | 10/2019 | fischer Process System Award 2019<br>Optimization of internal business processes to increase efficiency for the fischer group |
 
 ### Volunteering and Leisure
