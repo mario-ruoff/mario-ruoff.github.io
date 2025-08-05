@@ -18,5 +18,7 @@ links:
     
 excerpt: "An blockchain-based inspection process platform using Ethereum"
 
-description: "This repository is a result of the [ARENA 2036](https://arena2036.de/en) Hackathon in 2022. It aims to create a blockchain-based platform to enable proof of presence for inspection processes. Completed inspections are signed and signed via smart contracts."
+description: "This repository is a result of the <a href='https://arena2036.de/en'>ARENA 2036</a> Hackathon in 2022. It aims to create a blockchain-based platform to enable proof of presence for inspection processes. Completed inspections are signed and signed via smart contracts."
 ---
+
+

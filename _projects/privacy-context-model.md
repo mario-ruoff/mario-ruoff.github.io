@@ -17,11 +17,11 @@ links:
 
 excerpt: "An ontology-based privacy policy generator for connected vehicle environments"
 
-description: "Practical course at the University of Stuttgart for creating and using Privacy Context Models in a React Web App."
+description: "This project was created in the practical course at the University of Stuttgart for creating and using Privacy Context Models in a React Web App. It leverages ontologies to generate privacy policies tailored for connected vehicle environments."
 ---
 
 ## User Interface
-![App Demo Animation](/images/privacy-car-demo.webp)
+![App Demo Animation](/assets/images/privacy-car-demo.webp)
 
 ## Toolchain
 These tools and technologies were used to create the app:

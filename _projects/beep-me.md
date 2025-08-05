@@ -17,5 +17,5 @@ links:
 
 excerpt: "Augmented Reality app to help visually impaired people to located door handles"
 
-description: "This repository is a result of the [ZEISS Innovation Hub](https://www.zeiss.de/corporate/ueber-zeiss/zukunft/new-business-bei-zeiss/zeiss-innovation-hubs/zeiss-innovation-hub-kit.html) Hackathon in 2023. It targets visually impaired people by detecting doors and providing audio guidance towards them. It is meant to be used in augmented reality headsets for a hands-free experience."
+description: "This repository is a result of the <a href='https://www.zeiss.de/corporate/ueber-zeiss/zukunft/new-business-bei-zeiss/zeiss-innovation-hubs/zeiss-innovation-hub-kit.html'>ZEISS Innovation Hub</a> Hackathon in 2023. It targets visually impaired people by detecting doors and providing audio guidance towards them. It is meant to be used in augmented reality headsets for a hands-free experience."
 ---
