@@ -8,6 +8,7 @@ permalink: /resume/
 ## Work Experience
 ------------------
 
+| 04/2025 - today | **Freelance Technical Consultant** | Providing IT system administration and Microsoft 365 support for various NGOs. |
 | 07/2024 - 01/2025 | **Master’s Thesis, Mercedes-Benz AG**<br>*Research & Development Autonomous Driving* | Title: "Latent Context Maps for Deep Learning-Based Motion Prediction"<br>Improving vehicle occupancy prediction using PyTorch |
 | 02/2023 - 08/2023 | **Software Developer, GreenTeam Uni Stuttgart**<br>*Formula Student, Telemetry/System Electronics* | Development of a GPS-based telemetry tracking dashboard<br>Software development support in Driverless Cup<br>Competition at Red Bull Ring in Spielberg, Austria |
 | 12/2021 - 06/2023 | **Working Student, Mercedes-Benz AG**<br>*Research & Development Autonomous Driving* | Support in trajectory prediction<br>Smoke testing taskforce on ECUs |
