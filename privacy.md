@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy/
+noindex: true
 ---
 
 > Effective Date: 30/07/2025

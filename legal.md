@@ -2,6 +2,7 @@
 layout: page
 title: Legal Notice
 permalink: /legal/
+noindex: true
 ---
 
 ### Provider
